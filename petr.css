@@ -1,0 +1,192 @@
+body {
+    background-color: #ff9966;
+}
+
+.title {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.link {
+    background-color: lightgray;
+    font-size: 20px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.divlink a:hover {
+    background-color: white;
+    color: black;
+}
+
+.myCard {
+    background-color: white;
+    height: 150px;
+    margin-left: 37.5%;
+    margin-top: 10%;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 156px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+    border: 1px solid black;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.image2 {
+    margin-left: 2px;
+    display: inline-block;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.galerie {
+    display: inline-block;
+    background-color: lightgray;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: auto;
+    margin-top: 225px;
+    border: 1px solid black;
+}
+
+.tax-div {
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 400px;
+    width: 770px;
+    height: 605px;
+    border: 1px solid black;
+}
+
+.tax-div15 {
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 400px;
+    width: 795px;
+    height: 490px;
+    border: 1px solid black;
+}
+
+.tax-div-2 {
+    width: 319px;
+    margin-left: 15px;
+    display: inline-block;
+    border: 1px solid black;
+    height: auto;
+    font-size: 40px;
+    text-align: center;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.tax-div-3 {
+    width: auto;
+    margin-top: 57px;
+    margin-left: 15px;
+    display: inline-block;
+    border: 1px solid black;
+    height: auto;
+    margin-right: 14px;
+    float: right;
+}
+
+.tax-div-4 {
+    width: 319px;
+    margin-left: 15px;
+    display: inline-block;
+    border: 1px solid black;
+    height: auto;
+    margin-right: 50px;
+    float: left;
+}
+
+.tax-img {
+    width: auto;
+    display: inline-block;
+    vertical-align: text-top;
+    height: auto;
+    margin-right: 90px;
+    float: right;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.myImage {
+    margin-left: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    height: 200px;
+    width: auto;
+    border: 1px solid black;
+}
